@@ -1,15 +1,6 @@
 # YouTube Plus (ex. YTLite)
 A flexible enhancer for YouTube on iOS, featuring over hundred customizable options.
 
-## Table of Contents
-- [Screenshots](#screenshots)
-- [Main Features](#main-features)
-- [FAQ](#faq)
-- [Reviews](#reviews)
-- [How to build a YouTube Plus app using GitHub Actions](#how-to-build-a-youtube-plus-app-using-github-actions)
-- [Supported YouTube Version](#supported-youtube-version)
-- [Tweak Integration Details](#tweak-integration-details)
-
 ## Screenshots
 <table>
    <tr>
@@ -48,28 +39,12 @@ A flexible enhancer for YouTube on iOS, featuring over hundred customizable opti
 
 **YouTube Plus preferences can be found in the YouTube Settings**
 
-**All contributors are listed in the Contributors section**
-**Used open-source libraries are listed in the Open Source Libraries section**
-
-> [!NOTE]
-> Starting from version 5.2, YTPlus requires a subscription.  
-> The last free version is [5.2b4](https://github.com/dayanch96/YTLite/releases/tag/v5.2b4).
-
-## FAQ
-- [🇺🇸 English FAQ](FAQs/FAQ_EN.md)
-- [🇷🇺 ЧаВо на Русском](FAQs/FAQ_RU.md)
-- [🇮🇹 FAQ in Italiano](FAQs/FAQ_IT.md)
-- [🇵🇱 FAQ po polsku](FAQs/FAQ_PL.md)
+**The last free version is [5.2b4](https://github.com/dayanch96/YTLite/releases/tag/v5.2b4).**
 
 ## Reviews
 Review by [@qbap](https://github.com/qbap) on ONE Jailbreak: https://onejailbreak.com/blog/youtube-plus/
 
 ## How to build a YouTube Plus app using Github actions
-> [!NOTE]
-> If this your first time, complete following steps before starting:
->
-> 1. Fork this repository using the fork button on the top right
-> 2. On your forked repository, go to **Repository Settings** > **Actions**, enable **Read and Write** permissions.
 
 <details>
   <summary>How to build the YouTube Plus app</summary>
@@ -103,47 +78,4 @@ Review by [@qbap](https://github.com/qbap) on ONE Jailbreak: https://onejailbrea
     <li>Make sure all inputs are correct, then click <strong>Run workflow</strong> to start the process.</li>
     <li>Wait for the build to finish. You can download the YouTube Plus app from the releases section of your forked repo. (If you can't find the releases section, go to your forked repo and add /releases to the URL, i.e., github.com/user/YTLite/releases.)</li>
   </ol>
-</details>
-
-## Supported YouTube Version
-<ul>
-   <li><strong>Latest confirmed:</strong> <em>21.16.2</em></li>
-   <li><strong>Date tested:</strong> <em>Jul 17, 2026</em></li>
-   <li><strong>YouTube Plus:</strong> <em>5.2.2</em></li>
-</ul>
-
-## Tweak Integration Details
-<details>
-  <summary>YouPiP</summary>
-  <p>YouPiP is a tweak developed by <a href="https://github.com/PoomSmart">PoomSmart</a> that enables the native Picture-in-Picture feature for videos in the iOS YouTube app.</p>
-  <p><strong>YouPiP preferences</strong> are available in the <strong>YouTube settings</strong>.</p>
-  <p>Source code and additional information are available <a href="https://github.com/PoomSmart/YouPiP">in PoomSmart's GitHub repository</a>.</p>
-</details>
-
-<details>
-  <summary>YTUHD</summary>
-  <p>YTUHD is a tweak developed by <a href="https://github.com/PoomSmart">PoomSmart</a> that unlocks 1440p (2K) and 2160p (4K) resolutions in the iOS YouTube app.</p>
-  <p><strong>YTUHD preferences</strong> are available in the <strong>Video quality preferences</strong> section under <strong>YouTube settings</strong>.</p>
-  <p>Source code and additional information are available <a href="https://github.com/PoomSmart/YTUHD">in PoomSmart's GitHub repository</a>.</p>
-</details>
-
-<details>
-  <summary>Return YouTube Dislikes</summary>
-  <p>Return YouTube Dislikes is a tweak developed by <a href="https://github.com/PoomSmart">PoomSmart</a> that brings back dislikes on the YouTube app.</p>
-  <p><strong>Return YouTube Dislikes preferences</strong> are available in the <strong>YouTube settings</strong>.</p>
-  <p>Source code and additional information are available <a href="https://github.com/PoomSmart/Return-YouTube-Dislikes">in PoomSmart's GitHub repository</a>.</p>
-</details>
-
-<details>
-  <summary>YouQuality</summary>
-  <p>YouQuality is a tweak developed by <a href="https://github.com/PoomSmart">PoomSmart</a> that allows to view and change video quality directly from the video overlay.</p>
-  <p><strong>YouQuality can be enabled</strong> in the <strong>Video overlay</strong> section under <strong>YouTube settings</strong>.</p>
-  <p>Source code and additional information are available <a href="https://github.com/PoomSmart/YouQuality">in PoomSmart's GitHub repository</a>.</p>
-</details>
-
-<details>
-  <summary>DontEatMyContent</summary>
-  <p>DontEatMyContent is a tweak developed by <a href="https://github.com/therealFoxster">therealFoxster</a> that prevents the Notch/Dynamic Island from munching on 2:1 video content in the iOS YouTube app.</p>
-  <p><strong>DontEatMyContent preferences</strong> are available in the <strong>YouTube settings</strong>.</p>
-  <p>Source code and additional information are available <a href="https://github.com/therealFoxster/DontEatMyContent">in therealFoxster's GitHub repository</a>.</p>
 </details>
